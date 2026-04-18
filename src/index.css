@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ROOT VARIABLES */
+:root {
+  --text: #6b6375;
+  --text-h: #08060d;
+  --bg: #fafaf3; /* match your design */
+  --border: #e5e4e7;
+
+  font-family: 'Manrope', sans-serif;
+  color: var(--text);
+  background: var(--bg);
+}
+
+/* DARK MODE */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --text: #9ca3af;
+    --text-h: #f3f4f6;
+    --bg: #16171d;
+    --border: #2e303a;
+  }
+}
+
+/* BODY */
+body {
+  margin: 0;
+  background: var(--bg);
+}
+
+/* ROOT CONTAINER (FIXED) */
+#root {
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* HEADINGS */
+h1, h2 {
+  font-family: 'Noto Serif', serif;
+  color: var(--text-h);
+}
+
+h1 {
+  font-size: 56px;
+  margin: 32px 0;
+}
+
+h2 {
+  font-size: 24px;
+}
