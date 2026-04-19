@@ -11,7 +11,7 @@ export default function About() {
             <div className="absolute -top-6 -left-6 w-3/4 h-full bg-surface-container-low rounded-xl -z-10"></div>
 
             <img
-              src="https://lh3.googleusercontent.com/aida-public/AB6AXuDl7w9vMD7iwrFdWv-D3YVs-_ZQgklmCz5h3oOV76uLDWWdIMAUCLGHVC2Y3xkCP3IU2uvmfk0lwjVhf7avgwBLNSF-wIov8R5rFlFGJQQKMXaWA1hEMlcRQjtxBA6M-ZMyebl-4gZkQ27MPljr-DXgxwYMQRi_Vtz5KNkFk4-8qm7UvJprOVXPOu7Y8JO_fZPzrhLBn6o2PLUDoqvbP-3HoRBfayKp8zDK1I8yCkVSZFhoqY2tjimst_ufTu16v4HPC8p56T0RgwDa"
+              src="https://res.cloudinary.com/dlcjyh6fb/image/upload/v1776565845/chiku_pic_c257qc.png"
               className="w-full rounded-xl shadow-[0_20px_60px_-15px_rgba(46,52,42,0.06)]"
               alt="profile"
             />
@@ -23,9 +23,9 @@ export default function About() {
               Behind the Lens
             </span>
 
-            <h1 className="font-headline text-4xl md:text-6xl font-bold mt-4 mb-6">
-              My Story
-            </h1>
+            <h1 className="font-headline text-4xl md:text-6xl font-bold mt-4 mb-6 text-black">
+  My Story
+</h1>
 
             <div className="space-y-6 text-on-surface-variant leading-relaxed">
               <p>
@@ -68,7 +68,7 @@ export default function About() {
           <span className="text-xs uppercase tracking-widest text-primary">
             Methodology
           </span>
-          <h2 className="font-headline text-4xl mt-4 font-bold">
+          <h2 className="font-headline text-4xl mt-4 font-bold text-black">
             The Process
           </h2>
         </div>
@@ -114,7 +114,7 @@ export default function About() {
 
       {/* CTA */}
       <section className="text-center max-w-3xl mx-auto px-6">
-        <h2 className="text-4xl font-headline mb-6">
+        <h2 className="text-4xl font-headline mb-6 text-black">
           Ready to curate your narrative?
         </h2>
 
